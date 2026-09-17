@@ -31,7 +31,7 @@ pnpm-debug.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw?*
 
 # OS generated files
 .DS_Store
@@ -40,3 +40,12 @@ Thumbs.db
 # Java / Maven
 backend/target/
 backend/.mvn/wrapper/maven-wrapper.jar
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
